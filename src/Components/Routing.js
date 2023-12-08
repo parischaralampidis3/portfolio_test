@@ -7,7 +7,7 @@ import About from "./Views/About";
 
 function Routing (){
     return(
-        <div>
+        <div className="bg-blue-200 ">
            <Router>
             <Routes>
 
