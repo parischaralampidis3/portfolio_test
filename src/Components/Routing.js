@@ -7,7 +7,7 @@ import About from "./Views/About";
 
 function Routing (){
     return(
-        <div className=" mx-16 h-1/2 w-5/5">
+        <div className=" flex ">
 
            <Router>
             <Routes>

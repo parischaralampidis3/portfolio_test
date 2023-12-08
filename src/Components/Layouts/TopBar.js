@@ -5,7 +5,7 @@ import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function TopBar() {
   return (
-    <div className="w-full mt-10 h-10">
+    <div className="w-2/4 mx-auto mt-10 h-10">
       <div className="flex flex-row items-center justify-around">
         <div className="flex flex-row justify-start items-center  p-2 font-semibold">
           <div className="flex flex-row items-center">
