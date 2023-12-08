@@ -1,0 +1,43 @@
+portfolio-test
+--------------
+This project represents a  portfolio that
+distributes personal, development and contact information.
+Also it is responsive in mobile devices
+
+stack
+-----
+-tailwind-css
+-jquery.js
+-react.js
+
+how to run the project
+----------------------
+run in terminal : npm run start
+
+-i installed tailwind-css library for css styling.
+-i used react-router-dom to create routes and links for the pages.
+
+landing-page
+------------
+In this page i present personal information. I include a short
+portfolio section and skills section 
+
+set navigation bar
+------------------
+
+create profile banner
+---------------------
+
+personal information
+--------------------
+
+gallery
+-------
+
+
+contact
+-------
+
+
+responsive design
+-----------------
