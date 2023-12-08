@@ -21,10 +21,7 @@ function TopBar() {
 
         <div className="text-2xl">
           <FontAwesomeIcon icon={faLinkedin} />
-        
-                <FontAwesomeIcon className="mx-6" icon={faGithub} />
-        
-      
+          <FontAwesomeIcon className="mx-6" icon={faGithub} />
         </div>
       </div>
     </div>
