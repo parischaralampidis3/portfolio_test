@@ -16,6 +16,7 @@ run in terminal : npm run start
 
 -i installed tailwind-css library for css styling.
 -i used react-router-dom to create routes and links for the pages.
+-i used font-awesome to provide icons for the component.
 
 landing-page
 ------------

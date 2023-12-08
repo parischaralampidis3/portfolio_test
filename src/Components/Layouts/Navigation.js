@@ -3,7 +3,7 @@ import React from "react";
 function Navigation() {
   return (
     <div className="box-border">
-      <div className="bg-cyan-50 w-4/4 h-screen p-12">
+      <div className="bg-cyan-50 w-3/4 h-screen p-12">
         <h1 className="text-cyan-800 text-left text-2xl font-bold mx-auto">
           Paris Charalampidis
         </h1>
