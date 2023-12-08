@@ -1,5 +1,6 @@
 import React from "react";
 import "../../Profile.css";
+
 function Profile() {
   return (
     <div className=" container w-60  mx-auto">
@@ -48,8 +49,11 @@ function Profile() {
 
                         </div>
                     </div>
-    </div>
 
+
+              
+    
+    </div>
 
 
     </div>

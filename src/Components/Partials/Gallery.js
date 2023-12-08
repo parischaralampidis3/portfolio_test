@@ -6,13 +6,20 @@ function Gallery() {
       <div className="container h-3/4 bg-cyan-700 ">
         <h1 className="font-semibold text-white p-3">Feature Projects</h1>
       </div>
-      <p className="mt-5 mx-auto">
+      <div>
+
+
+      </div>
+      <h1 className="mt-5 font-semibold text-cyan-700">Blogger</h1>
+      <p className="mt-5  mx-auto">
         "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
         accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
         illo inventore veritatis et quasi architecto beatae vitae dicta sunt
         explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
         odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-        voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
+        voluptatem sequi nesciunt.</p>
+      <p>
+         Neque porro quisquam est, qui dolorem ipsum
         quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam
         eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
         voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam

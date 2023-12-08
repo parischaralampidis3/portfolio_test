@@ -1,97 +1,250 @@
-
 @keyframes fade-in-right {
-    from {
-        transform: translateX(-300px);
-    }
-    to{
-        transform:translateX(0);
-    }
-    0%{
-        opacity:0;
-       
-    }
-    25%{
-        opacity:0.2
-    }
-    50%{
-        opacity:0.5;
-         color: black;
-    }
-    100%{
-        opacity:1;
-    }
+  from {
+    transform: translateX(300px);
+  }
+  to {
+    transform: translateX(0);
+  }
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.2;
+  }
+  50% {
+    opacity: 0.5;
+    color: black;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.animate-fade-in-right{
-animation-name: fade-in-right;
-animation-duration: 1s;
-animation-timing-function: ease-in;
-animation-delay:0;
-animation-iteration-count:1;
-animation-direction:normal;
-animation-fill-mode:forwards;
+.animate-fade-in-right {
+  animation-name: fade-in-right;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
 }
 
-
-@keyframes blink{
-    0% { opacity: 0; }
-    50% { opacity: 0.5; }
-    100% { opacity: 0; }
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
-.blink{
-    animation-name: blink;
-    animation-duration: 1s;
-    animation-timing-function: ease-in;
-    animation-delay:0;
-    animation-iteration-count:infinite;
-    animation-direction:normal;
-    animation-fill-mode:forwards;
-    }
-
-
-
-    @keyframes big-blink{
-    0% { opacity: 0; 
-    color:tomato}
-    50% { opacity:1;
-    color:brown }
-    70%{
-        opacity:0.5;
-        color:tomato;
-    }
-
-    100% { opacity: 0; color:pink; }
+.blink {
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
 }
 
-.big-blink{
-    animation-name:big-blink;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
-    animation-delay:0;
-    animation-iteration-count:infinite;
-    animation-direction:normal;
-    animation-fill-mode:forwards;
-    }
-  
+@keyframes big-blink {
+  0% {
+    opacity: 0;
+    color: tomato;
+  }
+  50% {
+    opacity: 1;
+    color: brown;
+  }
+  70% {
+    opacity: 0.5;
+    color: tomato;
+  }
 
-
-    @keyframes delay-blink{
-    0% { opacity: 0; 
-    color:blue}
-    50% { opacity:1;
-    color:lightblue }
-    70%{
-        opacity:0.5;
-        color:cyan;
-    }
-
-    100% { opacity: 0; color:blue; }
+  100% {
+    opacity: 0;
+    color: pink;
+  }
 }
 
-  .delay-blink{
-  animation-name:delay-blink;
+.big-blink {
+  animation-name: big-blink;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes delay-blink {
+  0% {
+    opacity: 0;
+    color: blue;
+  }
+  50% {
+    opacity: 1;
+    color: lightblue;
+  }
+  70% {
+    opacity: 0.5;
+    color: cyan;
+  }
+
+  100% {
+    opacity: 0;
+    color: blue;
+  }
+}
+
+.delay-blink {
+  animation-name: delay-blink;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-delay: 2s;
 }
+
+
+/***********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
