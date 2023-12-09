@@ -2,7 +2,7 @@ import "./App.css";
 import Sidebar from "./Components/Layouts/Sidebar";
 import TopBar from "./Components/Layouts/TopBar";
 import Routing from "./Components/Routing";
-
+import Footer from "./Components/Layouts/Footer";
 
 function App() {
   return (
@@ -12,9 +12,11 @@ function App() {
         <div className="w-full">
           <TopBar />
           <Routing />
-        </div>
+         <Footer/>
+        </div>   
+       
       </div>
-  
+     
     </div>
      
 
