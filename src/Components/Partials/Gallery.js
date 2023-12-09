@@ -2,21 +2,21 @@ import { React, useState } from "react";
 function Gallery() {
   const [isActive, setIsActive] = useState(true);
   const [message, setMessage] = useState(false);
-  const handleClick = (event) => {
+  const handleClick = () => {
     setIsActive((current) => !current);
     setMessage((current) => !current);
   };
 
   return (
-    <div className=" mt-12 p-3 mx-auto  w-2/5">
-      <div className="container h-3/4 bg-cyan-700 ">
-        <h1 className="font-semibold text-white p-3">Feature Projects</h1>
+    <div className=" w-30  mt-12 mx-auto  md:w-2/5">
+      <div className="container mx-0  h-3/4 bg-cyan-700 w-40 lg:mx-2 w-full ">
+        <h1 className="text-base font-semibold text-white p-3 lg:text-xl">Feature Projects</h1>
       </div>
 
       {/** --------- first portfolio project ---------- */}
       <div className="p-5">
         <div>
-          <h1 className="mt-5 text-xl font-semibold text-cyan-700">Blogger</h1>
+          <h1 className="mt-5 text-base font-semibold text-cyan-700 lg:text-xl">Blogger</h1>
         </div>
 
         <div className="mt-5 mx-0 bg-blue-50 w-60 p-2">
@@ -29,8 +29,8 @@ function Gallery() {
             alt="project_image"
           />
 
-          <div className="grid grid-cols-2 gap-0 mt-5 text-cyan-900 font-semibold">
-            <p className="mt-5 w-2/3  mx-auto">
+          <div className="flex flex-col w-95 xl:flex-row w-full mt-5 text-cyan-900 font-light  ">
+            <p className="text-sm mx-auto leading-5 mt-5 w-56 mr-16 text-left  md:w-full    ">
               "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -39,7 +39,7 @@ function Gallery() {
               eos qui ratione voluptatem sequi nesciunt.
             </p>
 
-            <p className="mt-5 w-2/3  mx-auto">
+            <p className="text-sm leading-5 mx-auto mt-5 w-56 mr-16 text-left md:w-full  ">
               "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore veritatis et quasi architecto beatae vitae
@@ -56,13 +56,13 @@ function Gallery() {
       </div>
 
       {/** ------------------------------------- */}
-      <hr className="mt-10" />
+      <hr className="mt-0" />
       {/** --------- second portfolio project ---------- */}
 
       <div className={isActive ? "hidden" : ""}>
-        <div className="mt-16 p-6">
+        <div className="mt-2 p-5">
           <div>
-            <h1 className="mt-5 text-xl font-semibold text-cyan-700">Lang</h1>
+            <h1 className="mt-5 text-base font-semibold text-cyan-700 lg:text-xl">Lang</h1>
           </div>
 
           <div className="mt-5 mx-0 bg-blue-50 w-60 p-2">
@@ -75,8 +75,8 @@ function Gallery() {
               alt="project_image"
             />
 
-            <div className="grid grid-cols-2 gap-0 mt-5 text-cyan-900 font-semibold">
-              <p className="mt-5 w-2/3  mx-auto">
+            <div className="flex flex-col w-95 xl:flex-row w-full mt-5 text-cyan-900 font-light">
+              <p className="text-sm mx-auto leading-5 mt-5 w-56 mr-16 text-left  md:w-full">
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                 quae ab illo inventore veritatis et quasi architecto beatae
@@ -86,7 +86,7 @@ function Gallery() {
                 nesciunt.
               </p>
 
-              <p className="mt-5 w-2/3  mx-auto">
+              <p className="text-sm leading-5 mx-auto mt-5 w-56 mr-16 text-left md:w-full">
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                 quae ab illo inventore veritatis et quasi architecto beatae
@@ -104,9 +104,9 @@ function Gallery() {
         </div>
         <hr className="mt-10" />
         {/** -------------------------------------- */}
-        <div class="mt-16 p-6">
+        <div class="mt-5 p-5">
           <div>
-            <h1 className="mt-5 text-xl font-semibold text-cyan-700">
+            <h1 className="mt-5 text-base font-semibold text-cyan-700 lg:text-xl">
               Product List
             </h1>
           </div>
@@ -121,8 +121,8 @@ function Gallery() {
               alt="project_image"
             />
 
-            <div className="grid grid-cols-2 gap-0 mt-5 text-cyan-900 font-semibold">
-              <p className="mt-5 w-2/3  mx-auto">
+            <div className="flex flex-col w-95 xl:flex-row w-full mt-5 text-cyan-900 font-light">
+              <p className="text-sm mx-auto leading-5 mt-5 w-56 mr-16 text-left  md:w-full">
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                 quae ab illo inventore veritatis et quasi architecto beatae
@@ -132,7 +132,7 @@ function Gallery() {
                 nesciunt.
               </p>
 
-              <p className="mt-5 w-2/3  mx-auto">
+              <p className="text-sm leading-5 mx-auto mt-5 w-56 mr-16 text-left md:w-full ">
                 "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                 accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
                 quae ab illo inventore veritatis et quasi architecto beatae
