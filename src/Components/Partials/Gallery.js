@@ -8,7 +8,12 @@ function Gallery() {
   };
 
   return (
+    
     <div className="w-2/3 sm:w-30  mt-12 mx-auto  md:w-2/5">
+
+   
+
+
       <div className="container  h-3/4 bg-cyan-700 w-40 lg:mx-2 w-full ">
         <h1 className="text-sm md:text-base font-semibold text-white p-3 lg:text-xl">Feature Projects</h1>
       </div>
