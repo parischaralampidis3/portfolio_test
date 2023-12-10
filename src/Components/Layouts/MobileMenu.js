@@ -1,16 +1,25 @@
 import React from "react";
 
-function MobileMenu() {
-  return (
-    <div className="fixed inset-0 bg-cyan-100 z-50 lg:hidden">
-      <div className="block lg:hidden">
+function MobileMenu({isActive,closeMenu}) {
 
+    return (
+   
+    <div className= {!isActive ? "" :"  fixed inset-0 bg-cyan-100 z-50 "} >
+
+
+    <div className="flex items-center justify-around mt-0 ">
         <div>
-            <h1 className="text-3xl font-semibold w-30 mt-5 mx-5 ">Paris Charalampidis</h1>
+            <h1 className="text-xl text-cyan-800 font-semibold w-30 mt-7 mx-5 ">Paris Charalampidis</h1>
         </div>
+        <div onClick={closeMenu}>
+            <img className="cursor-pointer w-6 mt-7" src="../../assets/images/icon/close-menu-icon.png"/>
+        </div>
+    </div>
+
+
         <ul className="flex  flex-col justify-center items-center text-right text-cyan-800 text-4xl font-semibold mt-24">
           <li>
-            <a className="" href="/home">
+            <a className="" href="/">
               home
             </a>
           </li>
@@ -31,7 +40,7 @@ function MobileMenu() {
           </li>
         </ul>
       </div>
-    </div>
+  
   );
 }
 export default MobileMenu;
