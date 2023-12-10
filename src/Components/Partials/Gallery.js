@@ -8,23 +8,21 @@ function Gallery() {
   };
 
   return (
-    
     <div className="w-2/3 sm:w-30  mt-12 mx-auto  md:w-2/5">
-
-   
-
-
       <div className="container  h-3/4 bg-cyan-700 w-40 lg:mx-2 w-full ">
-        <h1 className="text-sm md:text-base font-semibold text-white p-3 lg:text-xl">Feature Projects</h1>
+        <h1 className="text-sm md:text-base font-semibold text-white p-3 lg:text-xl">
+          Latest Projects
+        </h1>
       </div>
 
       {/** --------- first portfolio project ---------- */}
       <div className="p-5">
         <div>
-          <h1 className="text-sm mx-0 md:mt-5 text-base font-semibold text-cyan-700 lg:text-xl">Blogger</h1>
+          <h1 className="text-sm mx-0 md:mt-5 text-base font-semibold text-cyan-700 lg:text-xl">
+            Blogger
+          </h1>
         </div>
 
-      
         <div className="mt-8">
           <img
             src="..\assets\images\project_images\blogger_screenshot_03.png"
@@ -36,24 +34,16 @@ function Gallery() {
               "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt.
+              dicta sunt explicabo.
             </p>
 
             <p className="text-sm leading-5 mx-auto mt-5 w-56 mr-16 text-left md:w-full  ">
               "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-              aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-              eos qui ratione voluptatem sequi nesciunt.
+              dicta sunt explicabo.
             </p>
           </div>
-        </div>
-
-        <div className="mt-8 bg-cyan-600 w-40 text-center mx-auto p-2 text-white font-semibold">
-          <button>Learn More</button>
         </div>
       </div>
 
@@ -64,10 +54,11 @@ function Gallery() {
       <div className={isActive ? "hidden" : ""}>
         <div className="mt-2 p-5">
           <div>
-            <h1 className="mt-5 text-base font-semibold text-cyan-700 lg:text-xl">Lang</h1>
+            <h1 className="mt-5 text-base font-semibold text-cyan-700 lg:text-xl">
+              Lang
+            </h1>
           </div>
 
-   
           <div className="mt-8">
             <img
               src="..\assets\images\project_images\blogger_screenshot_03.png"
@@ -96,10 +87,6 @@ function Gallery() {
               </p>
             </div>
           </div>
-
-          <div className="mt-8 bg-cyan-600 w-40 text-center mx-auto p-2 text-white font-semibold">
-            <button>Learn More</button>
-          </div>
         </div>
         <hr className="mt-10" />
         {/** -------------------------------------- */}
@@ -110,7 +97,6 @@ function Gallery() {
             </h1>
           </div>
 
-      
           <div className="mt-8">
             <img
               src="..\assets\images\project_images\blogger_screenshot_03.png"
@@ -138,10 +124,6 @@ function Gallery() {
                 nesciunt.
               </p>
             </div>
-          </div>
-
-          <div className="mt-8 bg-cyan-600 w-40 text-center mx-auto p-2 text-white font-semibold">
-            <button>Learn More</button>
           </div>
         </div>
         <hr className="mt-10" />
