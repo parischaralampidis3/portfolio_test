@@ -24,27 +24,26 @@ function Gallery() {
         </div>
 
         <div className="p-5 mt-2">
-          <img className="bg-cyan-500 shadow-lg shadow-gray-300/50"
+          <img
+            className="bg-cyan-500 shadow-lg shadow-gray-300/50"
             src="..\assets\images\project_images\blogger_screenshot_03.png"
             alt="project_image"
           />
 
-          <div className="flex w-85 xl:flex-row w-full mt-5 text-cyan-900 font-light  ">
-            <p className="text-sm leading-5 mx-auto mt-5 w-56 mr-16 text-left md:w-full    ">
-              Blogger is a project which consists of a platform for blog posting. It lets an admin
-              to create a blog and post it. Also it supports comments functionality. A user can sign up and 
-              sign in the platform, and create comments or view blog posts.
+          <div className="flex w-full  xl:flex-row w-full mt-5 text-cyan-900 font-light  ">
+            <p className="text-sm  leading-6 mx-5 mt-5  mr-16 text-left w-full lg:leading-5 w-full    ">
+              Blogger is a project which consists of a platform for blog
+              posting. It lets an admin to create a blog and post it. Also it
+              supports comments functionality. A user can sign up and sign in
+              the platform, and create comments or view blog posts.
             </p>
           </div>
         </div>
       </div>
 
-   
-    
       {/** --------- second portfolio project ---------- */}
       {/** --------------- hide projects functionality ------------*/}
       <div className={isActive ? "hidden" : ""}>
-
         <div className=" p-6 mt-5 bg-cyan-50">
           <div>
             <h1 className="mt-2 text-base font-semibold text-cyan-700 lg:text-xl">
@@ -54,27 +53,25 @@ function Gallery() {
 
           <div className="mt-8">
             <img
-            className="bg-cyan-500 shadow-lg shadow-gray-300/50"
+              className="bg-cyan-500 shadow-lg shadow-gray-300/50"
               src="..\assets\images\project_images\lang_01.png"
               alt="project_image"
             />
 
-            <div className="flex w-85 xl:flex-row w-full mt-5 text-cyan-900 font-light">
-           
-
-              <p className="text-sm leading-5 mx-auto mt-5 w-56 mr-16 text-left md:w-full">
-               
-                Lang is a project which consists of a e-class educative platform. Lang lets a user to add preffered students,
-                and execute show,store,update,delete operations. Also Lang lets a user(eg.teaher), to create custom exercises and send an exercise through an 
-                email at his students.
-             
+            <div className="flex w-full xl:flex-row w-full mt-5 text-cyan-900 font-light">
+              <p className="text-sm leading-6 mx-5 leading-6 mt-5 w-full mr-16 text-left lg:leading-6 w-full">
+                Lang is a project which consists of a e-class educative
+                platform. Lang lets a user to add preffered students, and
+                execute show,store,update,delete operations. Also Lang lets a
+                user(eg.teaher), to create custom exercises and send an exercise
+                through an email at his students.
               </p>
             </div>
           </div>
         </div>
 
         {/** ----------third second portfolio---------------------------- */}
-        <div class="mt-5  p-4 bg-cyan-50">
+        <div class="mt-5 p-6 bg-cyan-50">
           <div>
             <h1 className="mt-5 text-base font-semibold text-cyan-700 lg:text-xl">
               Product List
@@ -82,26 +79,24 @@ function Gallery() {
           </div>
 
           <div className="mt-8">
-            <img className = "bg-cyan-500 shadow-lg shadow-gray-300/50"
+            <img
+              className="bg-cyan-500 shadow-lg shadow-gray-300/50"
               src="..\assets\images\project_images\product_list_04.png"
               alt="project_image"
             />
 
-            <div className="flex flex-col w-95 xl:flex-row w-full mt-5 text-cyan-900 font-light">
-          
-              <p className="text-sm leading-5 mx-auto mt-5 w-56 mr-16 text-left md:w-full ">
-               Product list is a a project which consists of a plattform that lets a user to add a product through a form.
-               Also it supports a table list of products.
+            <div className="flex flex-col w-full xl:flex-row w-full mt-5 text-cyan-900 font-light">
+              <p className="text-sm  leading-6 mx-2 mt-5   text-left lg:leading-6 w-full ">
+                Product list is a a project which consists of a plattform that
+                lets a user to add a product through a form. Also it supports a
+                table list of products.
               </p>
             </div>
           </div>
         </div>
-        
       </div>
 
-
       <div className="mt-12 rounded shadow-lg shadow-black-500/50 bg-blue-600 w-100 text-center mx-auto p-2 text-white font-semibold">
-  
         <button onClick={handleClick}>
           {message ? "Hide Projects" : "Show More Projects"}
         </button>
