@@ -20,8 +20,9 @@ run in terminal : npm run start
 -
 landing-page
 ------------
-In this page i present personal information. I include a short
-portfolio section and skills section 
+In this page i present personal information. 
+I include a short portfolio section and skills section 
+Also there is an option for dowload resume.
 
 set navigation bar
 ------------------

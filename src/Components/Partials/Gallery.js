@@ -9,88 +9,72 @@ function Gallery() {
 
   return (
     <div className="w-2/3 sm:w-30  mt-12 mx-auto  md:w-2/5">
-      <div className="container  h-3/4 bg-cyan-700 w-40 lg:mx-2 w-full ">
-        <h1 className="text-sm md:text-base font-semibold text-white p-3 lg:text-xl">
+      <div className="container rounded-md h-3/4 bg-cyan-700 w-40 lg:mx-2 w-full ">
+        <h1 className="text-sm md:text-base  font-semibold text-white p-3 lg:text-xl">
           Latest Projects
         </h1>
       </div>
 
       {/** --------- first portfolio project ---------- */}
-      <div className="p-5">
+      <div className="p-2  mt-5 bg-cyan-50">
         <div>
-          <h1 className="text-sm mx-0 md:mt-5 text-base font-semibold text-cyan-700 lg:text-xl">
+          <h1 className="text-sm mx-5 md: text-base font-semibold text-cyan-700 lg:text-xl">
             Blogger
           </h1>
         </div>
 
-        <div className="mt-8">
-          <img
+        <div className="p-5 mt-2">
+          <img className="bg-cyan-500 shadow-lg shadow-gray-300/50"
             src="..\assets\images\project_images\blogger_screenshot_03.png"
             alt="project_image"
           />
 
-          <div className="flex flex-col w-85 xl:flex-row w-full mt-5 text-cyan-900 font-light  ">
-            <p className="text-sm mx-auto leading-5 mt-5 w-56 mr-16 text-left  md:w-full    ">
-              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
-            </p>
-
-            <p className="text-sm leading-5 mx-auto mt-5 w-56 mr-16 text-left md:w-full  ">
-              "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
+          <div className="flex w-85 xl:flex-row w-full mt-5 text-cyan-900 font-light  ">
+            <p className="text-sm leading-5 mx-auto mt-5 w-56 mr-16 text-left md:w-full    ">
+              Blogger is a project which consists of a platform for blog posting. It lets an admin
+              to create a blog and post it. Also it supports comments functionality. A user can sign up and 
+              sign in the platform, and create comments or view blog posts.
             </p>
           </div>
         </div>
       </div>
 
-      {/** ------------------------------------- */}
-      <hr className="mt-0" />
+   
+    
       {/** --------- second portfolio project ---------- */}
-
+      {/** --------------- hide projects functionality ------------*/}
       <div className={isActive ? "hidden" : ""}>
-        <div className="mt-2 p-5">
+
+        <div className=" p-6 mt-5 bg-cyan-50">
           <div>
-            <h1 className="mt-5 text-base font-semibold text-cyan-700 lg:text-xl">
+            <h1 className="mt-2 text-base font-semibold text-cyan-700 lg:text-xl">
               Lang
             </h1>
           </div>
 
           <div className="mt-8">
             <img
+            className="bg-cyan-500 shadow-lg shadow-gray-300/50"
               src="..\assets\images\project_images\lang_01.png"
               alt="project_image"
             />
 
-            <div className="flex flex-col w-95 xl:flex-row w-full mt-5 text-cyan-900 font-light">
-              <p className="text-sm mx-auto leading-5 mt-5 w-56 mr-16 text-left  md:w-full">
-                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt.
-              </p>
+            <div className="flex w-85 xl:flex-row w-full mt-5 text-cyan-900 font-light">
+           
 
               <p className="text-sm leading-5 mx-auto mt-5 w-56 mr-16 text-left md:w-full">
-                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt.
+               
+                Lang is a project which consists of a e-class educative platform. Lang lets a user to add preffered students,
+                and execute show,store,update,delete operations. Also Lang lets a user(eg.teaher), to create custom exercises and send an exercise through an 
+                email at his students.
+             
               </p>
             </div>
           </div>
         </div>
-        <hr className="mt-10" />
-        {/** -------------------------------------- */}
-        <div class="mt-5 p-5">
+
+        {/** ----------third second portfolio---------------------------- */}
+        <div class="mt-5  p-4 bg-cyan-50">
           <div>
             <h1 className="mt-5 text-base font-semibold text-cyan-700 lg:text-xl">
               Product List
@@ -98,38 +82,26 @@ function Gallery() {
           </div>
 
           <div className="mt-8">
-            <img
+            <img className = "bg-cyan-500 shadow-lg shadow-gray-300/50"
               src="..\assets\images\project_images\product_list_04.png"
               alt="project_image"
             />
 
             <div className="flex flex-col w-95 xl:flex-row w-full mt-5 text-cyan-900 font-light">
-              <p className="text-sm mx-auto leading-5 mt-5 w-56 mr-16 text-left  md:w-full">
-                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt.
-              </p>
-
+          
               <p className="text-sm leading-5 mx-auto mt-5 w-56 mr-16 text-left md:w-full ">
-                "Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi
-                nesciunt.
+               Product list is a a project which consists of a plattform that lets a user to add a product through a form.
+               Also it supports a table list of products.
               </p>
             </div>
           </div>
         </div>
-        <hr className="mt-10" />
+        
       </div>
 
-      <div className="mt-12 bg-blue-600 w-100 text-center mx-auto p-2 text-white font-semibold">
+
+      <div className="mt-12 rounded shadow-lg shadow-black-500/50 bg-blue-600 w-100 text-center mx-auto p-2 text-white font-semibold">
+  
         <button onClick={handleClick}>
           {message ? "Hide Projects" : "Show More Projects"}
         </button>
