@@ -26,6 +26,22 @@ body::before {
   background-size: no-cover; /* Adjust background size if needed */
   z-index: -1; /* Ensure it's behind other content */
 }
+
+.nav-a a:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px black;  
+  
+  transform: scaleX(0);  
+  transition: transform 200ms ease-in-out;
+}
+.nav-a a:hover:after {
+   transform: scaleX(1); 
+  }
+  .nav-a:hover{
+    color :#344;
+  }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -60,3 +76,4 @@ body::before {
     transform: rotate(360deg);
   }
 }
+

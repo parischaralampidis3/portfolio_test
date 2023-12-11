@@ -1,5 +1,5 @@
 import React from "react";
-
+import "../../App.css";
 function Navigation() {
   return (
     <div className="box-border">
@@ -11,17 +11,17 @@ function Navigation() {
 
         <div className="container">
           <div className=" flex flex-column ">
-            <ul className="mx-19 text-left text-xl font-semibold my-24">
-              <li>
+            <ul className="mx-19 text-left text-xl  font-semibold my-24">
+              <li className="nav-a">
                 <a href="/">home</a>
               </li>
-              <li className="mt-4">
+              <li className="nav-a mt-4">
                 <a href="/work">work</a>
               </li>
-              <li className="mt-4">
+              <li className="nav-a mt-4">
                 <a href="/about">about</a>
               </li>
-              <li className="mt-4">
+              <li className="nav-a mt-4">
                 <a href="/contact">contact</a>
               </li>
             </ul>
