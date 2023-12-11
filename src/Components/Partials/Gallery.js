@@ -61,7 +61,7 @@ function Gallery() {
 
           <div className="mt-8">
             <img
-              src="..\assets\images\project_images\blogger_screenshot_03.png"
+              src="..\assets\images\project_images\lang_01.png"
               alt="project_image"
             />
 
@@ -99,7 +99,7 @@ function Gallery() {
 
           <div className="mt-8">
             <img
-              src="..\assets\images\project_images\blogger_screenshot_03.png"
+              src="..\assets\images\project_images\product_list_04.png"
               alt="project_image"
             />
 

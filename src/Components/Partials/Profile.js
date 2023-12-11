@@ -23,9 +23,9 @@ function Profile() {
               web experiences and bring creative visions to life. My mission is
               simple: to transform ideas into captivating digital realities.
             </p>
-            <button className="border bg-cyan-700 shadow-lg  rounded-md p-2 text-white borded-full text-sm font-semibold mt-0  md:p-4">
+            <a href ="resume.pdf" className="border bg-cyan-700 shadow-lg  rounded-md p-2 text-white borded-full text-sm font-semibold mt-0  md:p-4" download>
               Download Resume
-            </button>
+            </a>
           </div>
         </div>
       </div>

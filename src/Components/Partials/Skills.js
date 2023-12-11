@@ -11,7 +11,7 @@ function Skills() {
           <div className="text-base text-cyan-800  lg:mx-14 text-lg">
             <h1>Design</h1>
           </div>
-          <div className="text-sm md:mt-5 text-base lg:text-lg mx-14">
+          <div className="text-sm  md:mt-5 mr-6 text-base md:mx-0 lg:text-lg mx-14 ">
             <h3>Figma</h3>
             <h3>Adobe XD</h3>
           </div>
