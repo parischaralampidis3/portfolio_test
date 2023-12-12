@@ -69,6 +69,29 @@ function Gallery() {
               </p>
             </div>
           </div>
+
+
+
+
+          <div>
+            <h1 className="mt-10 text-base font-semibold text-cyan-700 lg:text-xl">
+              Product List
+            </h1>
+          </div>
+
+          <div className="mt-8">
+            <img
+              className="bg-cyan-500 shadow-lg shadow-gray-300/50"
+              src="..\assets\images\project_images\product_list_02.png"
+              alt="project_image"
+            />
+
+            <div className="flex w-full xl:flex-row w-full mt-5 text-cyan-900 font-light">
+              <p className="text-sm leading-6 mx-5 leading-6 mt-5 w-full mr-16 text-left lg:leading-6 w-full">
+                Project List is a CRUD web application,  in which a user, can add a product in a list. Also a user can preview the products, in a product list table.
+              </p>
+            </div>
+          </div>
         </div>
 
         {/** ----------third second portfolio---------------------------- */}

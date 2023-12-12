@@ -6,6 +6,8 @@ import Contact from "./Views/Contact";
 import About from "./Views/About";
 import Blogger from "./Views/UseCases/Blogger";
 import Lang from "./Views/UseCases/Lang";
+import ProductList from "./Views/UseCases/ProductList";
+
 
 
 function Routing (){
@@ -23,10 +25,11 @@ function Routing (){
 
                 <Route path="/blogger" element={<Blogger/>}/>
                 <Route path="/lang" element={<Lang/>}/>
+                <Route path = "/productList" element={<ProductList/>}/>
            </Routes>
             </Router> 
         </div>
     )
-}
+    }
 
 export default Routing;
