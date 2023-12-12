@@ -14,33 +14,25 @@ function Work() {
 
 
 <div>
- <div className=" p-16 mt-1  text-cyan-900 ">
-          <div>
-            <h1 className="text-center mt-2 p-4 text-2xl font-semibold">
-              Blogger
-            </h1>
-          </div>
+    <div className=" p-0 text-cyan-900 ">
+              <div>
+                <h1 className="text-center p-0 text-2xl font-semibold">
+                  Blogger
+                </h1>
+              </div>
 
-          <div className="flex flex-col justify-center">
-            <div className="w-3/5  h-96 mt-5 mx-auto ">
-              <img src="../assets/images/project_images/blogger_screenshot_04.png" />
-            </div>
-          
-          </div>  
+              <div className="flex flex-col justify-center ">
+                <div className="  h-80 mt-2 mx-auto md:w-2/4 ">
+                  <img src="../assets/images/project_images/blogger_screenshot_04.png" />
+                </div>
+              <div className="flex  justify-center -mt-24 md:-mt-24 lg:mt-20">
+                <a href="/blogger" className="p-1  rounded shadow-lg w-3/4 shadow-black-500/50 bg-green-500  text-center  mt-0 text-white font-semibold md:w-1/3">
+                  show project
+                </a>
+              </div>  
+              </div>  
 
-          
-          <div className="flex flex-row justify-center">
-
-            <a href="/blogger"
-              className="p-2 rounded shadow-lg w-1/4 shadow-black-500/50 bg-green-500  text-center  mt-20 text-white font-semibold"
-            
-            >
-              show project
-            </a>
-          </div>
-          
-         
-        </div>
+      </div>
   
 
 

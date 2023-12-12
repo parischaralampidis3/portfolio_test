@@ -20,8 +20,8 @@ function TopBar() {
         </div>
 
         <div className="text-xl flex items-center">
-         <a href="https://www.linkedin.com/in/paris-charalampidis-45765798/"> <FontAwesomeIcon icon={faLinkedin} /></a>
-         <a href="https://github.com/parischaralampidis3"> <FontAwesomeIcon className="mx-6" icon={faGithub} /></a>
+         <a href="https://www.linkedin.com/in/paris-charalampidis-45765798/"> <FontAwesomeIcon className="-mr-4" icon={faLinkedin} /></a>
+         <a href="https://github.com/parischaralampidis3"> <FontAwesomeIcon className="mx-6 " icon={faGithub} /></a>
 
 
         </div>

@@ -12,7 +12,7 @@ function MobileMenu({isActive,closeMenu}) {
             <h1 className="text-xl text-cyan-800 font-semibold w-30 mt-7 mx-5 ">Paris Charalampidis</h1>
         </div>
         <div onClick={closeMenu}>
-            <img className="cursor-pointer w-6 mt-7" src="../../assets/images/icon/close-menu-icon.png"/>
+            <img className="cursor-pointer  mr-10 mt-4 w-4 mt-7" src="../../assets/images/icon/close-menu-icon.png"/>
         </div>
     </div>
 
