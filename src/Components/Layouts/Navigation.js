@@ -5,8 +5,10 @@ function Navigation() {
     <div className="box-border">
       <div className="bg-cyan-50 w-4/5 h-screen p-12">
         <h1 className="text-cyan-800 text-left text-xl font-bold mx-auto">
-
-          Paris Charalampidis
+      
+             Paris Charalampidis
+       
+         
         </h1>
 
         <div className="container">
