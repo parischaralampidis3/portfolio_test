@@ -12,6 +12,7 @@ stack
 
 how to run the project
 ----------------------
+install node moduled: npm install
 run in terminal : npm run start
 
 -i installed tailwind-css library for css styling.
