@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+
 function Work() {
   const [isActive, setIsActive] = useState(true);
 
@@ -7,113 +8,66 @@ function Work() {
   };
 
   return (
-    <div className="container mx-auto w-full h-full">
-      <div className=" flex flex-wrap mx-20 justify-center  p-10">
-        <div>
-          <div className=" p-0 text-cyan-900 ">
-            <div>
-              <h1 className="text-center p-0 text-2xl font-semibold">
-                Blogger
-              </h1>
-            </div>
+    <div className="container-fluid w-full h-full">
+      <div className="flex flex-wrap justify-center lg:flex-row md:p-6 lg:p-1">
 
-            <div className="flex flex-col justify-center ">
-              <div className="  h-80 mt-2 mx-auto md:w-2/4 ">
-                <img src="../assets/images/project_images/blogger_screenshot_04.png" />
+        {/* Blogger Project */}
+        <div className="w-full md:w-1/2 lg:w-1/3 p-4 md:p-6 lg:p-8">
+          <div className="p-4 text-cyan-900 bg-white rounded-lg ">
+            <h1 className="text-center text-2xl font-semibold mb-4">Blogger</h1>
+            <div className="flex flex-col justify-center items-center md:items-start">
+              <div className="w-full h-60 md:w-3/4 lg:w-3/4 mb-4">
+                <img src="../assets/images/project_images/blogger_screenshot_04.png" alt="Blogger Project" className="w-full h-full object-cover rounded-lg" />
               </div>
-              <div className="flex  justify-center -mt-24 md:-mt-24 lg:mt-20">
-                <a
-                  href="/blogger"
-                  className="p-1  rounded shadow-lg w-3/4 shadow-black-500/50 bg-green-500  text-center  mt-0 text-white font-semibold md:w-1/3"
-                >
-                  show project
-                </a>
-              </div>
+              <a
+                href="/blogger"
+                className="rounded-lg w-full md:w-4/5 lg:w-4/5 bg-green-500 text-center text-white font-semibold p-2 md:p-4 lg:p-2"
+              >
+                {isActive ? "Show Blogger Project" : "Hide Blogger Project"}
+              </a>
             </div>
           </div>
         </div>
 
-
-
-
-        <div>
-          <div className=" mt-10 p-0 text-cyan-900 ">
-            <div>
-              <h1 className="text-center mb-10 text-2xl font-semibold">
-                Lang
-              </h1>
-            </div>
-
-            <div className="flex flex-col justify-center ">
-              <div className="  h-80 mt-2 mx-auto md:w-2/4 ">
-                <img src="../assets/images/project_images/lang_02.png" />
+        {/* Lang Project */}
+        <div className="w-full md:w-1/2 lg:w-1/3 p-4 md:p-6 lg:p-8">
+          <div className="mt-0 p-2 text-cyan-900 bg-white rounded-lg">
+            <h1 className="text-center mb-6 text-2xl font-semibold">Lang</h1>
+            <div className="flex flex-col justify-center items-center md:items-start">
+              <div className="h-60 md:w-4/4 lg:w-4/4 mb-8">
+                <img src="../assets/images/project_images/lang_02.png" alt="Lang Project" className="w-full h-full object-cover rounded-lg" />
               </div>
-              <div className="flex  justify-center -mt-24 md:-mt-24 lg:mt-20">
-                <a
-                  href="/lang"
-                  className="p-1  rounded shadow-lg w-3/4 shadow-black-500/50 bg-green-500  text-center  mt-0 text-white font-semibold md:w-1/3"
-                >
-                  show project
-                </a>
-              </div>
-            </div>
-          </div>
-
-      
-        </div>
-
-        {/**--------product list project ----------- */}
-
-        <div className="hidden w-full mt-10 p-5 text-cyan-900  bg-cyan-50">
-          <div>
-            <h1 className="mx-12 text-xl font-semibold">Product List</h1>
-          </div>
-          <div>
-            <p className="mx-auto mt-5 text-base w-3/4">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-              quae ab illo inventore veritatis et quasi architecto beatae vitae
-              dicta sunt explicabo.
-            </p>
-          </div>
-
-          <div className="w-3/4  h-96 mt-10 mx-auto ">
-            <img src="../assets/images/project_images/product_list_01.png" />
-          </div>
-
-          <div className="flex flex-col items-center mx-14">
-            <div className="flex mt-24 mx-20">
-              <p className="  mt-12 mx-12  text-base w-1/3">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
-              </p>
-              <p className=" mt-12 text-base w-1/3">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi
-              </p>
-            </div>
-          </div>
-
-          <div className=" w-3/4  h-96 mt-10 mx-auto">
-            <img src="../assets/images/project_images/product_list_02.png" />
-          </div>
-
-          <div className="flex flex-col items-center mt-16 p-12  mx-10">
-            <div className="flex flex-row mx-12">
-              <p className="mx-12 mt-5 text-base w-full">
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-                quae ab illo inventore veritatis et quasi architecto beatae
-                vitae dicta sunt explicabo.
-              </p>
+              <a
+                href="/lang"
+                className="rounded-lg w-full md:w-3/4 lg:w-3/4 bg-green-500 text-center text-white font-semibold md:p-4 lg:p-2"
+              >
+                {isActive ? "Show Lang Project" : "Hide Lang Project"}
+              </a>
             </div>
           </div>
         </div>
+
+        {/* Another Lang Project (on a new line in lg size) */}
+        <div className="w-full lg:flex-none p-4 md:p-6 ">
+          <div className="mt-0 p-4 text-cyan-900 bg-white rounded-lg ">
+            <h1 className="text-center mb-4 text-2xl font-semibold">Lang</h1>
+            <div className="flex flex-col justify-center items-center md:items-center//">
+              <div className="h-60 md:w-4/4 lg:w-4/4 mb-8">
+                <img src="../assets/images/project_images/lang_02.png" alt="Lang Project" className="w-full h-full object-cover rounded-lg" />
+              </div>
+              <a
+                href="/lang"
+                className="rounded-lg w-full md:w-3/4 lg:w-2/6 bg-green-500 text-center text-white font-semibold p-2 md:p-4 lg:p-2"
+              >
+                {isActive ? "Show Lang Project" : "Hide Lang Project"}
+              </a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   );
 }
+
 export default Work;
