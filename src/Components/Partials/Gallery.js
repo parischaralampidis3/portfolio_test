@@ -1,4 +1,5 @@
 import { React, useState } from "react";
+import "../Views/UseCases/Blogger";
 function Gallery() {
   const [isActive, setIsActive] = useState(true);
   const [message, setMessage] = useState(false);
@@ -44,7 +45,7 @@ function Gallery() {
       {/** --------- second portfolio project ---------- */}
       {/** --------------- hide projects functionality ------------*/}
       <div className={isActive ? "hidden" : ""}>
-        <div className=" p-6 mt-5 bg-cyan-50">
+        <div className=" p-6 mt- bg-cyan-50">
           <div>
             <h1 className="mt-2 text-base font-semibold text-cyan-700 lg:text-xl">
               Lang
@@ -71,29 +72,9 @@ function Gallery() {
         </div>
 
         {/** ----------third second portfolio---------------------------- */}
-        <div class="mt-5 p-6 bg-cyan-50">
-          <div>
-            <h1 className="mt-5 text-base font-semibold text-cyan-700 lg:text-xl">
-              Product List
-            </h1>
-          </div>
-
-          <div className="mt-8">
-            <img
-              className="bg-cyan-500 shadow-lg shadow-gray-300/50"
-              src="..\assets\images\project_images\product_list_04.png"
-              alt="project_image"
-            />
-
-            <div className="flex flex-col w-full xl:flex-row w-full mt-5 text-cyan-900 font-light">
-              <p className="text-sm  leading-6 mx-2 mt-5   text-left lg:leading-6 w-full ">
-                Product list is a a project which consists of a plattform that
-                lets a user to add a product through a form. Also it supports a
-                table list of products.
-              </p>
-            </div>
-          </div>
-        </div>
+      </div>
+      <div className="mt-3 rounded shadow-lg shadow-black-500/50 bg-green-500 w-100 text-center mx-auto p-2 text-white font-semibold">
+        <a href="/work">Go to work</a>
       </div>
 
       <div className="mt-12 rounded shadow-lg shadow-black-500/50 bg-blue-600 w-100 text-center mx-auto p-2 text-white font-semibold">

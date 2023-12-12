@@ -4,6 +4,7 @@ import Home from "./Views/Home";
 import Work from "./Views/Work";
 import Contact from "./Views/Contact";
 import About from "./Views/About";
+import Blogger from "./Views/UseCases/Blogger";
 
 function Routing (){
     return(
@@ -17,6 +18,8 @@ function Routing (){
 
                 <Route path="/contact" element={<Contact/>}/>
                 <Route path="/about" element={<About/>}/>
+
+                <Route path="/blogger" element={<Blogger/>}/>
             </Routes>
             </Router> 
         </div>
