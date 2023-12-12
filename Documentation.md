@@ -12,6 +12,7 @@ stack
 
 how to run the project
 ----------------------
+install node modules:npm install
 run in terminal : npm run start
 
 -i installed tailwind-css library for css styling.
@@ -45,7 +46,7 @@ Work contains three projects, which are redirected at specified routes.
         --Blogger.js
         --Lang.js
         --ProductList.js
-        
+
 about
 ------
 I added an about page that contains static information about m
