@@ -24,12 +24,12 @@ function MobileMenu({isActive,closeMenu}) {
             </a>
           </li>
           <li className="mt-16">
-            <a className="" href="/create">
+            <a className="" href="/work">
               work
             </a>
           </li>
           <li className="mt-16">
-            <a className="sub-mobile-navigation-items" href="/view">
+            <a className="sub-mobile-navigation-items" href="/about">
               about
             </a>
           </li>

@@ -17,7 +17,7 @@ function Blogger() {
           </p>
         </div>
 
-        <div className="w-2/4 h-90 mt-10 mx-auto  w-4/6 lg:h-full w-3/6 ">
+        <div className="w-3/4 h-90 mt-10 mx-auto  w-4/6 lg:h-full w-3/6 ">
           <img src="../assets/images/project_images/blogger_screenshot_04.png" />
         </div>
         <div className="flex flex-col justify-center items-center w-3/4 mx-auto">
@@ -30,7 +30,7 @@ function Blogger() {
           </div>
         </div>
 
-        <div className=" w-2/4  h-90 mt-10 mx-auto md:w-3/6  mb-24">
+        <div className=" w-3/4  h-90 mt-10 mx-auto md:w-3/6  mb-24">
           <img src="../assets/images/project_images/blogger_screenshot_02.png" />
         </div>
 
@@ -53,7 +53,7 @@ function Blogger() {
             database, so the users can access them whenever they are logged in.
           </p>
         </div>
-        <div className="w-2/4  h-96 mt-10 md:w-3/6 mx-auto">
+        <div className="w-3/4  h-96 mt-10 md:w-3/6 mx-auto">
           <img src="../assets/images/project_images/blogger_screenshot_05.png" />
         </div>
       </div>

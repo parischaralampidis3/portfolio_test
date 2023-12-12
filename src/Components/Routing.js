@@ -5,6 +5,8 @@ import Work from "./Views/Work";
 import Contact from "./Views/Contact";
 import About from "./Views/About";
 import Blogger from "./Views/UseCases/Blogger";
+import Lang from "./Views/UseCases/Lang";
+
 
 function Routing (){
     return(
@@ -20,7 +22,8 @@ function Routing (){
                 <Route path="/about" element={<About/>}/>
 
                 <Route path="/blogger" element={<Blogger/>}/>
-            </Routes>
+                <Route path="/lang" element={<Lang/>}/>
+           </Routes>
             </Router> 
         </div>
     )
