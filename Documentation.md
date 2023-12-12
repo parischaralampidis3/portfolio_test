@@ -17,7 +17,8 @@ run in terminal : npm run start
 -i installed tailwind-css library for css styling.
 -i used react-router-dom to create routes and links for the pages.
 -i used font-awesome to provide icons for the component.
--
+
+
 landing-page
 ------------
 In this page i present personal information. 
@@ -35,13 +36,24 @@ Also the profile banner includes short personal description.
 personal information
 --------------------
 
-gallery
+work
 -------
+Work contains three projects, which are redirected at specified routes.
 
+-views
+    ---Usecases
+        --Blogger.js
+        --Lang.js
+        --ProductList.js
+        
+about
+------
+I added an about page that contains static information about m
 
 contact
 -------
-
+Contact contains a contact form with form validation
 
 responsive design
 -----------------
+The portfolio follows responsive design in mobile devices.
