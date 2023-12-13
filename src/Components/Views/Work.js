@@ -9,10 +9,10 @@ function Work() {
 
   return (
     <div className="container-fluid w-full h-full">
-      <div className="flex flex-wrap justify-center lg:flex-row md:p-6 lg:p-1">
+      <div className="flex flex-wrap justify-center lg:flex-row md:p-6 lg:p-0">
 
         {/* Blogger Project */}
-        <div className="w-full md:w-1/2 lg:w-1/3 p-4 md:p-6 lg:p-8">
+        <div className="w-full  md:w-1/2 lg:w-1/3 p-4 md:p-6 lg:p-8">
           <div className="p-4 text-cyan-900 bg-white rounded-lg ">
             <h1 className="text-center -mr-12 text-2xl font-semibold mb-4">Blogger</h1>
             <div className="flex flex-col justify-center items-center md:items-start">
@@ -30,7 +30,7 @@ function Work() {
         </div>
 
         {/* Lang Project */}
-        <div className="w-full md:w-1/2 lg:w-1/3 p-4 -mt-6 md:p-6 lg:p-8">
+        <div className="w-full md:w-1/2 lg:w-1/3 p-4 mt-0 md:p-6 lg:p-8">
           <div className="mt-0 p-2 text-cyan-900 bg-white rounded-lg">
             <h1 className="text-center mb-6 text-2xl font-semibold">Lang</h1>
             <div className="flex flex-col justify-center items-center md:items-start">
