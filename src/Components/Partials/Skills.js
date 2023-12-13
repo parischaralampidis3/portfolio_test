@@ -6,7 +6,7 @@ function Skills() {
     <div className=" mt-12 p-3 mx-auto  md:text-xl w-3/6">
     
 
-      <div class="flex justify-center    ">
+      <div className="flex justify-center    ">
      
 
         <div className="px-10 mb-5">
