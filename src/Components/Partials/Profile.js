@@ -23,7 +23,7 @@ function Profile() {
               web experiences and bring creative visions to life. My mission is
               simple: to transform ideas into captivating digital realities.
             </p>
-            <a href ="resume.pdf" className="border rounded-full bg-cyan-700 shadow-lg  rounded-md p-2 text-white borded-full text-sm font-semibold mt-0  md:p-4" download>
+            <a href ="resume.pdf" className="border rounded-full bg-blue-600 shadow-lg  rounded-md p-2 text-white borded-full text-sm font-semibold mt-0  md:p-4" download>
               Download Resume
             </a>
           </div>
