@@ -30,7 +30,7 @@ function Work() {
         </div>
 
         {/* Lang Project */}
-        <div className="w-full md:w-1/2 lg:w-1/3 p-4 md:p-6 lg:p-8">
+        <div className="w-full md:w-1/2 lg:w-1/3 p-4 -mt-6 md:p-6 lg:p-8">
           <div className="mt-0 p-2 text-cyan-900 bg-white rounded-lg">
             <h1 className="text-center mb-6 text-2xl font-semibold">Lang</h1>
             <div className="flex flex-col justify-center items-center md:items-start">
@@ -48,9 +48,9 @@ function Work() {
         </div>
 
         {/* Another Lang Project (on a new line in lg size) */}
-        <div className="w-full lg:flex-none p-4 md:p-8 ">
+        <div className="w-full lg:flex-none p-0 mb-10 md:p-8 ">
           <div className="mt-0 p-4 text-cyan-900 bg-white rounded-lg ">
-            <h1 className="text-center mb-4 text-2xl font-semibold">Product List</h1>
+            <h1 className="text-center mb-4 mt-0 text-2xl font-semibold">Product List</h1>
             <div className="flex flex-col justify-center items-center md:items-center//">
                <div className="h-60 sm:w-full md:w-1/3 lg:w-1/3 mb-4">
                 <img src="../assets/images/project_images/product_list_03.png" alt="Lang Project" className="w-full h-full object-cover rounded-lg" />
