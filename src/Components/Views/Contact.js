@@ -76,7 +76,7 @@ const handleSubmit = (e) =>{
     </div>
     { <div className="text-red-500 mt-16">{errors.subject}</div>}
     <div>
-        <button className="mt-10 bg-blue-600 text-lg font-semibold text-white p-3 w-60">Submit</button>
+        <button className="mt-5 bg-blue-600 text-lg font-semibold text-white p-3 w-60">Submit</button>
     </div>
 
     
