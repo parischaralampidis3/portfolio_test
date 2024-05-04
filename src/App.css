@@ -21,7 +21,7 @@ body::before {
   left: 20px; /* Adjust left margin */
   right: 20px; /* Adjust right margin */
   bottom: 20px; /* Adjust bottom margin */
-  background-image: url("../public/assets/images/background_image_3.jpg");
+ 
   background-repeat:no-repeat;
   background-size: no-cover; /* Adjust background size if needed */
   z-index: -1; /* Ensure it's behind other content */
@@ -78,3 +78,37 @@ body::before {
   }
 }
 
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+ 
+}
+.pagination > .active > a{
+  background-color:	rgb(59 130 246);
+  border-color:rgb(59 130 246);
+  color: #fff;
+  margin-left:5px;
+  margin-right:5px;
+}
+.pagination > li > a{
+  border: 1px solid rgb(59 130 246); ;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+   margin-left:1px;
+  margin-right:1px;
+  
+}
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus{
+  background-color:	rgb(59 130 246);
+  border-color: rgb(59 130 246);
+  outline: none ; 
+}
+.pagination > li > a, .pagination > li > span{
+  color: rgb(59 130 246);
+}
+.pagination > li:first-child > a, .pagination > li:first-child > span, .pagination > li:last-child > a, .pagination > li:last-child > span{
+  border-radius: unset
+}

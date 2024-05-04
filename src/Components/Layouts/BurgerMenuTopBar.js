@@ -14,11 +14,11 @@ function BurgerMenuTopBar() {
 
   return (
     <div>
-      <div className="mt-0 block bg-cyan-100 z-50 lg:hidden">
+      <div className="mt-0 block bg-blue-600 z-50 lg:hidden">
         <div className="flex items-center justify-around mt-0">
           <div>
-            <h1 className="text-xl text-cyan-900 font-semibold w-30 mt-5 mx-5 ">
-              Paris Charalampidis
+            <h1 className="text-2xl text-gray-100 font-semibold w-30 mt-5 mx-8 ">
+              Nick Charalabidis
             </h1>
           </div>
           <div onClick={isActive ? closeMenu : openMenu}>
